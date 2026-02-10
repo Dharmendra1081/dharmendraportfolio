@@ -47,9 +47,9 @@ import vpsLogo from './assets/education_logo/vps_logo.png';
 // Project Section Logo's
 import githubdetLogo from './assets/work_logo/github_det1.png';
 import csprepLogo from './assets/work_logo/cs_prep1.png';
-import movierecLogo from './assets/work_logo/movie_rec.png';
-import taskremLogo from './assets/work_logo/task_rem.png';
-import npmLogo from './assets/work_logo/npm.png';
+import movierecLogo from './assets/work_logo/movie_rec1.png';
+import taskremLogo from './assets/work_logo/task_rem1.png';
+import npmLogo from './assets/work_logo/npm1.png';
 import webverLogo from './assets/work_logo/web_dig.png';
 import cmLogo from './assets/work_logo/cm.png';
 import imagesearchLogo from './assets/work_logo/image_search.png';
@@ -217,42 +217,30 @@ export const SkillsInfo = [
     },
     {
       id: 2,
-      title: "Movie Recommendation App",
+      title: "personal Portfolio",
       description:
-        "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
+        "A personal portfolio web application built using React.js, Tailwind CSS, HTML, CSS, and JavaScript. It showcases my projects, skills, and experience with a focus on responsive design, smooth navigation, and a modern UI. The application delivers an intuitive user experience across devices, reflecting my frontend development expertise and attention to detail.",
       image: movierecLogo,
-      tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/codingmastr/Movie-Recommendation-App",
-      webapp: "https://movie-recommendation-app-jet.vercel.app/",
+      tags: ["React JS", "tailwind CSS", "HTML", "CSS", "JavaScript", "ContactForm", "Responsive"],
+      github: "https://github.com/Dharmendra1081/dharmendraportfolio.git",
+      webapp: "https://portfoliodharmendra.netlify.app/",
     },
     {
       id: 3,
-      title: "Email Validator NPM Package",
+      title: "Rahi Trip(Travel Agent Booking System)",
       description:
-        "An efficient and customizable NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
+        "Front-end contribution to a travel agent booking system enabling secure, urgent ticket bookings by authorized agents, built using React.js, TypeScript, Redux Toolkit, REST APIs, and authentication modules.",
       image: npmLogo,
-      tags: ["React JS", "Node.js", "NPM", "Validation"],
-      github: "https://github.com/codingmastr/cmtk-email-validator",
-      webapp: "https://www.npmjs.com/package/cmtk-email-validator",
+      tags: ["React JS", "TypeScript", "Redux Toolkit", "REST APIs", "validation"],
+      webapp: "https://www.rahitrip.com/",
     },
     {
       id: 4,
-      title: "Task Reminder Chrome Extension Tool",
+      title: "MockPortal(Exam Preparation Web App)",
       description:
-        "A productivity-boosting Chrome extension designed to help users manage and remember their daily tasks. Built using JavaScript, it offers a simple interface with reminders and task notifications to keep users on track.",
+        "Exam preparation web application for practicing mock tests and tracking performance, built with React.js, featuring API integration, routing, authentication, and a fully responsive design.",
       image: taskremLogo,
-      tags: ["JavaScript", "Chrome Extension", "HTML", "CSS"],
-      github: "https://github.com/codingmastr/Task-Reminder-Tool",
-      webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
+      tags: ["React.js","JavaScript", "Routing", "Api Integration", "Authentication"],
     },
-    {
-      id: 5,
-      title: "Webverse Digital",
-      description:
-        "The official website for Webverse Digital, a creative digital marketing agency. Built using HTML, CSS, and JavaScript, it features visually appealing animations and a clean design to showcase the agency's services.",
-      image: webverLogo,
-      tags: ["HTML", "CSS", "JavaScript", "Framer Motion"],
-      github: "https://github.com/codingmastr/Webverse-Digital",
-      webapp: "https://webversedigital.com/",
-    },
+
   ]; 
