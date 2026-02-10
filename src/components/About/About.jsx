@@ -51,7 +51,7 @@ const About = () => {
             with strong UX principles, integrating APIs, and delivering smooth, scalable, and high-performance web experiences.
           </p>
           {/* Resume Button */}
-          <a href="https://drive.google.com/file/d/1VkdYLEBe_gvpmFVRRPu0XWj8kPUnNMT5/view?usp=drive_link"
+          <a href="https://drive.google.com/file/d/1hOTVQ7jrGehZ31hEwwroYMh--DE7ilAW/view?usp=drivesdk"
             target='_blank'
             rel='noopener noreferrer'
             className='inline-block text-white py-3 px-8 rounded-full  mt-5 text-lg font-bold transition duration-300 transform hover:scale-105'
